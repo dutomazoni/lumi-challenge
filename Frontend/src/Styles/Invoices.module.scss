@@ -1,0 +1,88 @@
+.container {
+  height: 100vh;
+  position: relative;
+  background: white;
+  padding: 3vmax;
+}
+
+.content {
+  overflow: auto;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+}
+
+
+.inputLabel {
+  color: green !important;
+  text-align: center !important;
+  font-weight: bolder !important;
+  font-size: 16px;
+}
+
+.textField {
+  background-color: rgba(128, 128, 128, 0.07) !important;
+  border-radius: 20px !important;
+  text-align: start;
+  z-index: 20;
+  width: fit-content;
+  min-width: 300px !important;
+  padding: 0 20px;
+}
+
+.filterBar {
+  width: fit-content;
+  min-width: 50vw;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+  flex-wrap: wrap;
+  align-content: flex-start;
+}
+
+.contentFilterBar {
+  overflow: auto;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  height: 190px;
+}
+
+.fileUpload {
+  border: 1px solid grey;
+  display: flex;
+  padding: 6px 12px;
+  cursor: pointer;
+  align-items: center;
+  border-radius: 10px !important;
+  color: grey;
+  margin: 5px 0;
+}
+
+.btnSend {
+  font-weight: bold !important;
+  background-color:  green !important;
+  color: white !important;
+  width: 50%;
+  align-self: center;
+  margin: 2.5% 0 !important;
+  &:focus {
+    outline: none !important;
+  }
+  &:disabled {
+    background-color: gray !important;
+    border-color: gray !important;
+  }
+  //float: right !important;
+  //margin-top: -5vmin !important;
+}
+
+.inputLabelSubtext {
+  color: grey !important;
+  align-self: start;
+  font-style: italic;
+
+}
