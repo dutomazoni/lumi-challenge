@@ -1,0 +1,8 @@
+# Project exclude paths
+/node_modules/
+
+.idea
+API/.env
+Frontend/.env
+API/node_modules
+Frontend/node_modules

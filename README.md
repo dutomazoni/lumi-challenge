@@ -53,9 +53,6 @@ A tabela conta com a opção de ordenar em todas as colunas e também um link pa
 
 A tabela também é paginada para evitar longos tempos de carregamento:
 ![table2](Frontend/src/Styles/images/invoices_2.jpg)
-## Rotas
-
-Informações mais detalhadas das rotas no [swagger](https://petstore.swagger.io/?url=https://raw.githubusercontent.com/dutomazoni/desafio-emprestimo/master/API/Routes/swagger.yaml).
 
 ## Testes das rotas
 

@@ -46,7 +46,7 @@ const Invoices = () => {
 
         pdfToText(file).then((text) => {
           if(!text.includes("CEMIG")) {
-            toast.error(`Fatura inválida!`, {
+            toast.error(`Fatura inválida! Adicione uma fatura CEMIG!`, {
               icon: false,
               position: 'top-center',
               autoClose: 3000,
